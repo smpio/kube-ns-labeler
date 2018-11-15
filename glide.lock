@@ -1,9 +1,78 @@
-hash: 91aec0af5234e6a4d7168ead6a2844bb590dd6f0373f770927582d63848794de
-updated: 2018-11-15T15:53:47.073428+03:00
+hash: a1e41f25023b313062c36879d3762c7aac23eb4a73cfe6e8e643d8459613c00c
+updated: 2018-11-15T16:06:25.973592+03:00
 imports:
-- name: k8s.io/apimachinery
-  version: c1c4a7fe832857c75cc1d79c8e40d71d5da15fc6
+- name: github.com/gogo/protobuf
+  version: 342cbe0a04158f6dcb03ca0079991a51a4248c02
   subpackages:
-  - pkg/api/errors
+  - proto
+  - sortkeys
+- name: github.com/google/gofuzz
+  version: 44d81051d367757e1c7c6a5a86423ece9afcf63c
+- name: github.com/json-iterator/go
+  version: f2b4162afba35581b6d4a50d3b8f34e33c144682
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+- name: golang.org/x/net
+  version: 0ed95abb35c445290478a5348a7b38bb154135fd
+  subpackages:
+  - http2
+  - http2/hpack
+  - idna
+  - lex/httplex
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: gopkg.in/inf.v0
+  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+- name: k8s.io/api
+  version: b799cb063522995aa05eddf298303250d130c144
+  subpackages:
+  - admission/v1beta1
+  - admissionregistration/v1beta1
+  - authentication/v1
+  - core/v1
+- name: k8s.io/apimachinery
+  version: 2a7c9300402896b3c073f2f47df85527c94f83a0
+  subpackages:
+  - pkg/api/resource
   - pkg/apis/meta/v1
+  - pkg/apis/meta/v1/unstructured
+  - pkg/conversion
+  - pkg/conversion/queryparams
+  - pkg/fields
+  - pkg/labels
+  - pkg/runtime
+  - pkg/runtime/schema
+  - pkg/runtime/serializer
+  - pkg/runtime/serializer/json
+  - pkg/runtime/serializer/protobuf
+  - pkg/runtime/serializer/recognizer
+  - pkg/runtime/serializer/versioning
+  - pkg/selection
+  - pkg/types
+  - pkg/util/errors
+  - pkg/util/framer
+  - pkg/util/intstr
+  - pkg/util/json
+  - pkg/util/naming
+  - pkg/util/net
+  - pkg/util/runtime
+  - pkg/util/sets
+  - pkg/util/validation
+  - pkg/util/validation/field
+  - pkg/util/yaml
+  - pkg/watch
+  - third_party/forked/golang/reflect
+- name: k8s.io/klog
+  version: 8139d8cb77af419532b33dfa7dd09fbc5f1d344f
+- name: sigs.k8s.io/yaml
+  version: fd68e9863619f6ec2fdd8625fe1f02e7c877e480
 testImports: []

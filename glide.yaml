@@ -1,6 +1,12 @@
 package: github.com/smpio/kube-ns-labeler
 import:
+- package: k8s.io/api
+  subpackages:
+  - admission/v1beta1
+  - admissionregistration/v1beta1
+  - core/v1
 - package: k8s.io/apimachinery
   subpackages:
-  - pkg/api/errors
   - pkg/apis/meta/v1
+  - pkg/runtime
+  - pkg/runtime/serializer
